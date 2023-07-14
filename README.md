@@ -13,4 +13,4 @@ Answer - " Cyber Security is big domain and needs for different roles are differ
 
 --------
 
-1. [](/Basic Cyber Security Questions.md)
+1. [](../blob/master/Basic Cyber Security Questions.md)
