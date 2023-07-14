@@ -10,3 +10,7 @@ Different Cyber Security Job Roles - A look at different domains in Cyber Securi
 
 The Tweet above or the MindMap of different possible Cyber Security Job Roles will help me escape the Question - " Why every question is not Offensive or Defensive only, I only want Pentesting Questions, or only SOC Analyst Questions." 
 Answer - " Cyber Security is big domain and needs for different roles are different. "
+
+--------
+
+1. [](/Basic Cyber Security Questions.md)
