@@ -11,6 +11,8 @@ Different Cyber Security Job Roles - A look at different domains in Cyber Securi
 The Tweet above or the MindMap of different possible Cyber Security Job Roles will help me escape the Question - " Why every question is not Offensive or Defensive only, I only want Pentesting Questions, or only SOC Analyst Questions." 
 Answer - " Cyber Security is big domain and needs for different roles are different. "
 
+Orginal Repository - https://github.com/abhinavkakku/Cyber_Security_Interview_Questions
+
 Note-1: We will keep updating this page (Last updated : 21 July, 2k23), just started so don't expect this to become encyclopedia yet
 
 Note-2: Some questions can fall under more than one Category, forgive me for that, I will try not to repeat. Yet some questions that have very broad scope of followup questions maybe repeated ( as it gives context).
@@ -104,50 +106,17 @@ These might not be very good, but keeping in mind to keep answer to the realm of
 18. Expect some questions on common ports and services, like SMB, DNS FTP, SSH, SMTP, HTTP, HTTPS, DHCP, questions based on some log analysis or directly can be asked, if you are observing too much traffic to/from on port 22, what steps you take ?
 19. How do you place a firewall, load balancer, proxy ? in what order and why ?
 20. What information can you get from MAC Address ?
+21. What port does PING works on ? ( I will change this Ping thing, too much resued now)
 
 ----
 
-## Application Security Questions (and Pentesting)
+## Red Teaming, Penetration Testing,  Application Security Questions
 
 When explaining any Vulnerability here, also try mentioning remidiation for the same, and more deep dive if follow up questions asked.
 
-1. Heard of OWASP ? What is it ? name some Vulnerabilities from OWASP-T10.
-1. What is Vulnerability Assesment, Pentesting , and Red teaming. Differences ?
-2. How do you handle Brute Forcing on your application ?
-3. What is Authentication and Authorization ? 
-4. How does HTTP handles state ?
-5. What is Cross Site Scripting ? 
-6. What is difference in stored , reflected, and DOM XSS ?
-7. Which of the XSS attacks are hard to detetct and why ?
-7. What is the defense against XSS ? Remidiation. 
-6. Do you prefer black-listing approach or whitelisting approach ? and Why ?
-7. What is CSRF ? Impact ? and Remidiation ?
-8. When investigating CSRF Attack , wat are the things you will look for ?
-9. How do you determine if the Website is hosted on IIS or Apache or Nginix or whatever server stack ?
-10. What is SQL Injection ?
-11. Name some Types of SQL Injection Vulnerability. 
-12. How do you protect against SQLi ?
-13. What is Prepared Statements and Paramatrized Query ? (in Context of SQLi)
-13. What is 2nd-Order-SQLi ?
-14. How do you store password for applications in database ?
-15. What is RCE ? How do you test for RCE ? How can this bug be remidiated ?
-16. Explain OS Command Injection .
-17. What is CORS ? and SOP ?
-18. Does CORS protect against CSRF Attack ?
-19. Explain XXE ? What causes this flaw ? How do you mitigate it ? 
-20. What are some Security headers in HTTP Request. name some.
-20. What are various HTTP methods ?
-20. What is difference in GET POST and PUT Request ?
-21. What is CSP (Content Security Policy) ?
-22. Explain Race Condition ? How can you test for it ?
-23. What is Threat Modeling ?
-24. What are some common Risks in Mobile Applications ?
-25. When do you interact with developers for security testing ?
-25. Are you aware of the Software Development Life Cycle ?
-26. When in SDLC should you engage with Developers ?
-27. What is CI/CD Pipeline ?  Explain the role of this with the context of Security.
-28. Classify some Web Vulnerabilities into Low, Medium , High and Critical category. Reason why !
-29. Known that MD5 is not the most secured hasing Algorithm, Why we dont use SHA256 or others always ?
+Note : Kindly dont pinpoint yet on hey this is patching or this is Application Security or This falls in Mobile PT or Red Teaming, the border lines between these bit blured, so questions cn fall in one or more categories. 
+
+
 
 ### Pentesting (Network/Endpoints)
 
@@ -182,6 +151,73 @@ Again, the questions here are not guessed, can be limitless, so just putting ver
 20. What is Sub-Domain Takeover. Explain.
 21. How can you detect presence of a WAF ( Web Application Firewall),( and which one) ?
 22. What is C2 Server (Command and Control) ?
+23. Mention some SSL/TLS related Vulnerabilities.
+24. Have you come across any recent Data Breach, explain how it happened . (and IR Part : How we can protect against the same ?)
+
+
+## Application Security
+
+1. Heard of OWASP ? What is it ? name some Vulnerabilities from OWASP-T10.
+1. What is Vulnerability Assesment, Pentesting , and Red teaming. Differences ?
+2. How do you handle Brute Forcing on your application ?
+3. What is Authentication and Authorization ? 
+4. How does HTTP handles state ?
+5. What is Cross Site Scripting ? 
+6. What is difference in stored , reflected, and DOM XSS ?
+7. Which of the XSS attacks are hard to detetct and why ?
+7. What is the defense against XSS ? Remidiation. 
+6. Do you prefer black-listing approach or whitelisting approach ? and Why ?
+7. What is CSRF ? Impact ? and Remidiation ?
+8. When investigating CSRF Attack , wat are the things you will look for ?
+8. Can you perform CSRF attack if HTTP method is PUT considering there is no CSRF Prevention, Explain?
+9. How do you determine if the Website is hosted on IIS or Apache or Nginix or whatever server stack ?
+10. What is SQL Injection ?
+11. Name some Types of SQL Injection Vulnerability. 
+12. How do you protect against SQLi ?
+13. What is Prepared Statements and Paramatrized Query ? (in Context of SQLi)
+13. What is 2nd-Order-SQLi ?
+14. How do you store password for applications in database ?
+15. What is RCE ? How do you test for RCE ? How can this bug be remidiated ?
+16. Explain OS Command Injection .
+17. What is CORS ? and SOP ?
+18. Does CORS protect against CSRF Attack ?
+19. Explain XXE ? What causes this flaw ? How do you mitigate it ? 
+20. What are some Security headers in HTTP Request? Name some.
+20. Mention some HTTP Response Headers for Security ? Explain.
+20. What are various HTTP methods ?
+20. What is difference in GET POST and PUT Request ?
+21. What is CSP (Content Security Policy) ?
+22. Explain Race Condition ? How can you test for it ?
+23. Explain Cookie Attributes/Flags ? and Explain.
+23. What is Threat Modeling ?
+25. When do you interact with developers for security testing ?
+25. Are you aware of the Software Development Life Cycle ?
+26. When in SDLC should you engage with Developers ?
+27. What is CI/CD Pipeline ?  Explain the role of this with the context of Security.
+28. Classify some Web Vulnerabilities into Low, Medium , High and Critical category. Reason why !
+29. Known that MD5 is not the most secured hasing Algorithm, Why we dont use SHA256 or others always ?
+30. Internet facing NGINIX is being used in front of multiple applications (micro service architecture). These application are accessible to users via different sub-domains through NGINIX, What can go Wrong ?
+31. Can server SSL Certificate prevent SSL Injection against your system ? Explain.
+32. An Attacker is trying to extract session cookie using XSS Vulnerability, but a blank popup is shown. What could be the reason for this behaviour ?
+
+### Mobile Application Pentesting
+24. What are some common Risks in Mobile Applications ?
+1. Describe Programatic ways to detect if iOS or Android device is jailbroken or rooted.
+2. Can SMS be used as a medium to perform SQL Injection on Android Application. Explain ?
+30. Which tool is (mostly*) used to hook into iOS application
+30. Which protection mechanism is used for distributing Apple iOS Application on iTunes store?
+31. What are different Obfuscators used to Protect Mobile Apps ?
+32. What are different ways for Mobile Application to store and Protect sensative data in Android and iOS. Recomend best practices. 
+31. Brief about the Security improvements in Recent (last 2) Android Releases.
+32. Mention different steps you would perform doing reverse engineering on an  iOS Application downloaded from iTunes Store.
+33. Consider that you have decompiled a Android Application, made changes to the code and apk design, Will you be able to install this repacked APK on a newly formatted Android device ? Why ? or Not ?
+34. Provide ADB command with example to fetch APK file from Android Device.
+35. Can Adnroid malware App Extract sqlite file of another app? How? Why?or Not ? Explain with any assumptions made .
+36. Explain different approaches of bypassing SSL Pinning in Android and iOS Applications.
+
+## Cloud Pentesting or Security
+
+1. What are common Misconfigurations around AWS S3 bucket ? 
 
 ----
 
@@ -189,7 +225,7 @@ Again, the questions here are not guessed, can be limitless, so just putting ver
 
 SOC Analysts can be Clark Kent (superman) touching multiple parts of tech, having a grip over some and idea of many helps many times. Also the questions in a basic SOC job can start from any section above or below and land to this part of page. I will try to keep it concise to the topic.
 
-Note : SOC Analysts work around many different tech, so questions expect to judge the knowledge around some system, which can make resonse (or handling) around some Incident/Attack better. 
+Note : SOC Analysts work around many different tech, so questions expect to judge the knowledge around some system, which can make response (or handling) around some Incident/Attack better. 
 
 Note-2 : Questions in SOC Analyst Role and Incident Response are expected to be asnwered with scenarios and response action, so cover all possible paths you can think of.
 
@@ -225,9 +261,15 @@ Note-2 : Questions in SOC Analyst Role and Incident Response are expected to be 
 22. You discover your Infrastructure / Application is under DDoS attack ? What will be your resonse plan ?
 23. How would you advise backup policy of critical data in infrastructure ?
 24. What are some interesting logs you can collect in Windows Environment ?
-24. What are the logs from a Linux machine you would pick for SIEM ?
-25. What is SIEM ? Its Use ? ( More SIEM based questions in a small section later on same page)
 26. What are different DNS Records ? Explain.
+27. Explain DNS Exfiltration. How to detect DNS Exfiltration ?
+28. Browser, Application and OS are Vulnerable, which one will you priotize to fix and why ?
+29. How can you do Network Packet Analysis ? (Wireshark)
+30. Can you do do Network Packet Analysis with Wireshark ? What all information can you get from this analysis ?
+31. Can you do Network backet Analysis of HTTPS (SSL Enabled) traffic with Wireshark ?
+24. What are the logs from a Linux machine you would pick for SIEM ?
+24. What is SIEM ? Its Use ? ( More SIEM based questions in a small section later on same page)
+
 ----
 
 ## Malware Anaysis
@@ -262,6 +304,10 @@ More questions based on some experience  coming here soon. As Cyber Sec Intervie
 
 1. Are you good at coding ? How good are you with programming ?
 2. What is the choice of Language ? Which one are you comfotable with ?
+3. Write code to fetch IP Address from a json file.
+4. Write code to fetch valid email address from json file, email address can have ( . _ numbers )
+5. Have you worked with Python Web Requests ? possibly parsing the response in desired format.
+6. Write program to do the Network Packet Analysis , maybe fetch the .exe or .elf payload data from Network data captured in PCAP file.
 
 More questions based on some projects and required coming here soon.
 
@@ -279,3 +325,4 @@ These are totally random questions, makes less sense to judge on ( personal Opin
 6. What is Dark Web, and how is it different compared to Deep Web ?
 
 I want this section to be short, but for this, I wont keep any questions with me. 
+
