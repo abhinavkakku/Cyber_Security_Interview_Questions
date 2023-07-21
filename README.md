@@ -69,7 +69,9 @@ I will again repeat this - while the questions are very very basic, be prepared 
 1. How is TCP/IP Layer Different from OSI Layers in Networking?
 1. Do you prefer filtered ports or closed ports on your firewall?
 1. What is a firewall? What are different types of Firewall ?
-1. How can you bypass firewall?
+1. How can you bypass firewall? or IDS ?
+1. What is Fragmentation attack ?
+1. How can Fragmentation be used as DoS Attack ? How can this be avoided or handled ?
 1. Besides firewalls, what other devices are used to enforce network boundaries?
 1. What is a honeypot?
 1. What is the difference between an HIDS and a NIDS? Exmaples of both.
@@ -79,6 +81,7 @@ I will again repeat this - while the questions are very very basic, be prepared 
 1. Explain NAT (Network Address Translation) ?
 1. What is Port Forwarding ? and how/why it is used ?
 1. What is VLAN ?
+1. What Security Principle means a signed message came from the owner of key that signed it ? (non-repundiation, Integrity, authority, -non-verifiability)
 
 ----
 
@@ -90,9 +93,8 @@ These might not be very good, but keeping in mind to keep answer to the realm of
 1. What is Three-way-Handshake ? Explain. 
 2. How many packets are sent and received in 3-way handshake ?
 3. Explain BruteForce Attack . How do you detect it ?
-4. Explain Password Spraying Attack. How do you detect it ?
 5. How can you prevent Brute Force attack ? Mention some methods.
-6. Have you heard of 2FA ?  How 2FA protects users ?
+6. Have you heard of 2FA ?  How 2FA protects users ? Is it possible to bypass 2FA with Phishing ?
 7. What is difference in SSL and TLS ?
 8. What is use of SSL ? How it protects ?
 9. How SSL Certificate Exchange happens ?
@@ -153,6 +155,9 @@ Again, the questions here are not guessed, can be limitless, so just putting ver
 22. What is C2 Server (Command and Control) ?
 23. Mention some SSL/TLS related Vulnerabilities.
 24. Have you come across any recent Data Breach, explain how it happened . (and IR Part : How we can protect against the same ?)
+25. How does NMAP determines the Operating System of the target ?
+26. What is difference in Pass-the-Hash and Pass-the-Ticket ?
+
 
 
 ## Application Security
@@ -199,6 +204,8 @@ Again, the questions here are not guessed, can be limitless, so just putting ver
 30. Internet facing NGINIX is being used in front of multiple applications (micro service architecture). These application are accessible to users via different sub-domains through NGINIX, What can go Wrong ?
 31. Can server SSL Certificate prevent SSL Injection against your system ? Explain.
 32. An Attacker is trying to extract session cookie using XSS Vulnerability, but a blank popup is shown. What could be the reason for this behaviour ?
+33. Web Application allows user to download their account statement in DF format. How can you securely implement this functionality ? Explain.
+34. 
 
 ### Mobile Application Pentesting
 24. What are some common Risks in Mobile Applications ?
@@ -269,7 +276,10 @@ Note-2 : Questions in SOC Analyst Role and Incident Response are expected to be 
 31. Can you do Network backet Analysis of HTTPS (SSL Enabled) traffic with Wireshark ?
 24. What are the logs from a Linux machine you would pick for SIEM ?
 24. What is SIEM ? Its Use ? ( More SIEM based questions in a small section later on same page)
-
+25. Describe some Incident that you faced, and how you handled it ?
+26. How do you Investigate a suspicious Login alert for a business user email?
+27. What is difference in Credential Stuffing ? and password Spraying ? How do you detect these ?
+28. Make a use-case of Password Spraying attack.
 ----
 
 ## Malware Anaysis
@@ -325,4 +335,3 @@ These are totally random questions, makes less sense to judge on ( personal Opin
 6. What is Dark Web, and how is it different compared to Deep Web ?
 
 I want this section to be short, but for this, I wont keep any questions with me. 
-
