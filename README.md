@@ -82,6 +82,7 @@ I will again repeat this - while the questions are very very basic, be prepared 
 1. What is Port Forwarding ? and how/why it is used ?
 1. What is VLAN ?
 1. What Security Principle means a signed message came from the owner of key that signed it ? (non-repundiation, Integrity, authority, -non-verifiability)
+1. What is ARP Poisoning ?
 
 ----
 
@@ -125,6 +126,7 @@ Note : Kindly dont pinpoint yet on hey this is patching or this is Application S
 Again, the questions here are not guessed, can be limitless, so just putting very basic ones. This does NOT pertains to like - Hey ! These are asked in Pentesting Interviews.
 
 1. How do you start about hacking a target ? What is Information Gathering, Enumeration ?
+1. What are phases of Network Penetration Testing ? (Cyber Kill Chain)
 2. What NMAP argument/flag in nmap tells about version ?
 3. What is difference in -v and -V in NMAP ?
 4. Can SQLi lead to RCE ?
@@ -166,6 +168,7 @@ Again, the questions here are not guessed, can be limitless, so just putting ver
 1. What is Vulnerability Assesment, Pentesting , and Red teaming. Differences ?
 2. How do you handle Brute Forcing on your application ?
 3. What is Authentication and Authorization ? 
+4. What is Steteful and Steteless in HTTP context ?
 4. How does HTTP handles state ?
 5. What is Cross Site Scripting ? 
 6. What is difference in stored , reflected, and DOM XSS ?
@@ -178,6 +181,9 @@ Again, the questions here are not guessed, can be limitless, so just putting ver
 9. How do you determine if the Website is hosted on IIS or Apache or Nginix or whatever server stack ?
 10. What is SQL Injection ?
 11. Name some Types of SQL Injection Vulnerability. 
+11. Explain Union Based SQL Injection.
+11. Explain Time Based SQL Injection.
+11. Explain Blind SQL Injection.
 12. How do you protect against SQLi ?
 13. What is Prepared Statements and Paramatrized Query ? (in Context of SQLi)
 13. What is 2nd-Order-SQLi ?
@@ -205,7 +211,8 @@ Again, the questions here are not guessed, can be limitless, so just putting ver
 31. Can server SSL Certificate prevent SSL Injection against your system ? Explain.
 32. An Attacker is trying to extract session cookie using XSS Vulnerability, but a blank popup is shown. What could be the reason for this behaviour ?
 33. Web Application allows user to download their account statement in DF format. How can you securely implement this functionality ? Explain.
-34. 
+34. What is Threat Model / Threat Modeling ?
+34. What is STRIDE ?
 
 ### Mobile Application Pentesting
 24. What are some common Risks in Mobile Applications ?
@@ -284,9 +291,11 @@ Note-2 : Questions in SOC Analyst Role and Incident Response are expected to be 
 
 ## Malware Anaysis
 
-This will be updated soon
+1. What types of Malware Analysis are posible ?
+2. Explain Static Analysis and Dynamic Analysis of Malwares. 
 
 ----
+
 
 ## Compliance Audit GRC and more.
 
@@ -335,3 +344,4 @@ These are totally random questions, makes less sense to judge on ( personal Opin
 6. What is Dark Web, and how is it different compared to Deep Web ?
 
 I want this section to be short, but for this, I wont keep any questions with me. 
+
