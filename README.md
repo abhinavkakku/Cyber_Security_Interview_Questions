@@ -1,21 +1,21 @@
 # Cyber_Security_Interview_Questions
 
 
-Cyber Security Interview Questions is for students and working professionals who are preparing to get into , or switch to Cyber Security Job Roles . These questions are mostly crowd-sources , hence for many it may seem very trivial. I shall also add some questions that I faced in Cyber Security Interviews.
+Cyber Security Interview Questions for Penetration Testers, Red Team Engineers, SCO Analyst, Malware Researchers, Network Security Engineers and more. These are real questions faced by candidates in different domain interviews. These questions can help serious Job seekers and students alike who want to enter Cyber Security and clueless what might be asked in Interviews.
 
 Different Cyber Security Job Roles - A look at different domains in Cyber Security, this is not perfect, but still can help to get some idea of different roles one might take in CYber Security Jobs
 
 [Cyber Security Jobs Tweet*](https://twitter.com/abhinavkakku/status/1609385254615420929)
-![Cyber Security Jobs](/Cyber_Security_Job_Roles.png)
+![Cyber Security Jobs](/images/Cyber_Security_Job_Roles.png)
 
 The Tweet above or the MindMap of different possible Cyber Security Job Roles will help me escape the Question - " Why every question is not Offensive or Defensive only, I only want Pentesting Questions, or only SOC Analyst Questions." 
 Answer - " Cyber Security is big domain and needs for different roles are different. "
 
 Orginal Repository - https://github.com/abhinavkakku/Cyber_Security_Interview_Questions
 
-Note-1: We will keep updating this page (Last updated : 21 July, 2k23), just started so don't expect this to become encyclopedia yet
+Note-1: We will keep updating this page (Last updated : 02 November, 2k23), just started so don't expect this to become encyclopedia yet. I have removed the answers bit for now, might be updated in future.
 
-Note-2: Some questions can fall under more than one Category, forgive me for that, I will try not to repeat. Yet some questions that have very broad scope of followup questions maybe repeated ( as it gives context).
+Note-2: Some questions can fall under more than one Category, forgive me for that, I will try not to repeat. Yet some questions that have very broad scope of follow-up questions maybe repeated ( as it gives context).
 
 --------------------
 
@@ -110,6 +110,11 @@ These might not be very good, but keeping in mind to keep answer to the realm of
 19. How do you place a firewall, load balancer, proxy ? in what order and why ?
 20. What information can you get from MAC Address ?
 21. What port does PING works on ? ( I will change this Ping thing, too much resued now)
+22. Describe TCP Flow Control mechanism. (not potential question anymore, but know this)
+23. Describe packet loss recovery mechanism in TCP. (not potential question anymore, but know this)
+24. Explain how in Linux terminal can you confirm if it is a file or a directory ?
+25. Explain Redirections in Linux.
+26. What are pipes ? Explain named Pipe.
 
 ----
 
@@ -327,6 +332,9 @@ More questions based on some experience  coming here soon. As Cyber Sec Intervie
 4. Write code to fetch valid email address from json file, email address can have ( . _ numbers )
 5. Have you worked with Python Web Requests ? possibly parsing the response in desired format.
 6. Write program to do the Network Packet Analysis , maybe fetch the .exe or .elf payload data from Network data captured in PCAP file.
+7. Write a RegEx to filter  websites / URL / URL with Queries / Email Address / IP Address  / Phone Number (10-digits)
+8. (Bash) - replace all occurance of string - string_1 with string_1_1 in text file.
+9. You have a source file of program and want to maintain as such - every parenthesis open and close have exactly 1 whitespace after and before, where white space is not present add it, where extra white-space, remove extra and keep one. How do you programatically solve this ?
 
 More questions based on some projects and required coming here soon.
 
